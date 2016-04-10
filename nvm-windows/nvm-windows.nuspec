@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>nvm-windows</id>
+    <title>nvm-windows (Install)</title>
+    <version>1.1.0</version>
+    <authors>coreybutler</authors>
+    <owners>scowalt</owners>
+    <summary>Manage multiple installations of node.js on a Windows computer.</summary>
+    <projectUrl>https://github.com/coreybutler/nvm-windows</projectUrl>
+    <packageSourceUrl>https://github.com/scowalt/chocolatey-nvm-windows</packageSourceUrl>
+    <projectSourceUrl>https://github.com/coreybutler/nvm-windows</projectSourceUrl>
+    <docsUrl>https://github.com/coreybutler/nvm-windows/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/coreybutler/nvm-windows/issues</bugTrackerUrl>
+    <tags>nvm node nodejs node.js version manager nvm-windows</tags>
+    <copyright>Copyright (c) 2014 Corey Butler</copyright>
+    <licenseUrl>https://github.com/coreybutler/nvm-windows/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Merged support for Node v4.x.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

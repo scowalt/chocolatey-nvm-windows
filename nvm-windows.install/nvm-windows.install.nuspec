@@ -3,12 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>nvm-windows</id>
+    <id>nvm-windows.install</id>
     <title>nvm-windows (Install)</title>
     <version>1.1.0</version>
     <authors>coreybutler</authors>
     <owners>scowalt</owners>
     <summary>Manage multiple installations of node.js on a Windows computer.</summary>
+    <description>**tl;dr** [nvm](https://github.com/creationix/nvm), but for Windows, with an installer. [Download Now](https://github.com/coreybutler/nvm/releases)! This has always been a node version manager, not an io.js manager, so there is no back-support for io.js. However, node 4+ is supported.</description>
     <projectUrl>https://github.com/coreybutler/nvm-windows</projectUrl>
     <packageSourceUrl>https://github.com/scowalt/chocolatey-nvm-windows</packageSourceUrl>
     <projectSourceUrl>https://github.com/coreybutler/nvm-windows</projectSourceUrl>
